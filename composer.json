@@ -20,5 +20,9 @@
         "psr-4": {
             "DateTi\\": "src"
         }
+    },
+    "scripts": {
+        "cs": "tests/coding-standard/vendor/bin/ecs check src --config tests/coding-standard/coding-standard-php71.yml",
+        "csf": "tests/coding-standard/vendor/bin/ecs check src --config tests/coding-standard/coding-standard-php71.yml --fix"
     }
 }
